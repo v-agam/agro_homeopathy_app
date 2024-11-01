@@ -107,7 +107,6 @@ pyreadline3
 python-dateutil
 python-dotenv
 pytz
-pywin32
 PyYAML
 qdrant-client
 referencing
