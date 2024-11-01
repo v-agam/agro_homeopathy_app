@@ -29,6 +29,7 @@ requests
 scikit-learn
 scipy
 sentence-transformers
+sqlite3 >= 3.35.0
 SQLAlchemy
 streamlit
 threadpoolctl
