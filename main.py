@@ -59,7 +59,13 @@ def load_data():
     for loader in loaders:
         documents.extend(loader.load())
     
-    text_splitter = RecursiveCharacterTextSplitter(chunk_size=100, chunk_overlap=30)
+    #text_splitter = RecursiveCharacterTextSplitter(chunk_size=100, chunk_overlap=30)
+    text_splitter = RecursiveCharacterTextSplitter(
+    chunk_size=1000,
+    chunk_overlap=200,
+    length_function=len,
+    separators=["\n\n", "\n", " ", ""]
+    )
     texts = text_splitter.split_documents(documents)
     # Set up vector database  
     persist_directory = "db"
