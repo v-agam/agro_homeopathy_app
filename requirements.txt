@@ -30,11 +30,11 @@ fsspec==2024.9.0
 gitdb==4.0.11
 GitPython==3.1.43
 google-auth==2.35.0
-googleapis-common-protos==1.65.0
+googleapis-common-protos>=1.65.0
 greenlet==3.1.1
 groq==0.11.0
 grpcio==1.66.2
-grpcio-tools==1.66.2
+grpcio-tools>=1.66.2
 h11==0.14.0
 h2==4.1.0
 hpack==4.0.0
@@ -91,7 +91,7 @@ pandas==2.2.3
 pillow==10.4.0
 portalocker==2.10.1
 posthog==3.6.6
-protobuf==4.25.5
+protobuf>=4.25.5, <5.26.1
 pyarrow==17.0.0
 pyasn1==0.6.1
 pyasn1_modules==0.4.1
