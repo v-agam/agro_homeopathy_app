@@ -23,3 +23,7 @@ pyreadline3
 python-dateutil
 python-dotenv
 sentence-transformers
+pysqlite3-binary
+transformers
+tokenizers
+regex
