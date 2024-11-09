@@ -22,3 +22,4 @@ pyproject_hooks
 pyreadline3
 python-dateutil
 python-dotenv
+sentence-transformers
